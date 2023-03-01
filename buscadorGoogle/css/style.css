@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background: #fff;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    padding: 0 12px;
+}
+header .barra{
+    display: flex;
+    gap: 12px;
+    /*background-color: indigo;*/
+    align-items: center;
+}
+header .barra a{
+text-decoration: none;
+color: black;
+font-family: Arial, sans-serif;
+}
+header .barra a img{
+    width: 30px;
+    height: 30px;
+}
+figure img{
+    height: 120px;
+    width: 350px;
+}
+header .barra .btn{
+    background-color: #1a73e8;
+    border: 12px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+}
+
+main{
+    height: calc(100% - 60px - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+main .contenedor .btn-bus input{
+    background-color: #f8f9fa;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+main .contenedor label{
+    font-size: small;
+}
+main .contenedor .bus{
+    border: 1px solid gray;
+    border-radius: 20px;  
+    height: 40px;
+    width: 550px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+}
+main .contenedor .bus input{
+    width: 100%;
+    border: none;
+}
+.bus-logo{
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    background-image: url(/assets/search.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mic-logo{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url(/assets/mic-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cam-logo{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url(/assets/cam-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main .contenedor .bus button{
+    border: none;
+    background-color: transparent;
+}
+footer{
+    padding: 0 15px;
+    background-color: #f2f2f2;
+    height: 90px;
+    color: #70757a;
+}
+footer section.inf{
+    display: flex;
+    border-top: 1px solid #E0E0E0;
+    justify-content: space-between;
+}
+
+footer section{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+footer section.inf div a{
+    text-decoration: none;
+    color: #70757a;
+}
+footer section.inf div{
+display: flex;
+gap: 15px;
+}
